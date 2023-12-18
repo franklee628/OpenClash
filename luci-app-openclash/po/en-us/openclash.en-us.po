@@ -117,52 +117,52 @@ msgid "Download Running Config"
 msgstr "下载运行配置"
 
 msgid "Select Mode"
-msgstr "*运行模式"
+msgstr "Running Mode"
 
 msgid "redir-host"
-msgstr "Redir-Host（兼容）模式"
+msgstr "Redir-Host (Compatible)"
 
 msgid "fake-ip"
-msgstr "Fake-IP（增强）模式"
+msgstr "Fake-IP (Enhanced)"
 
 msgid "redir-host(tun mode)"
-msgstr "Redir-Host（TUN）模式"
+msgstr "Redir-Host (TUN)"
 
 msgid "fake-ip(tun mode)"
-msgstr "Fake-IP（TUN）模式"
+msgstr "Fake-IP (TUN)"
 
 msgid "redir-host-mix(tun mix mode)"
-msgstr "Redir-Host（TUN-混合）模式【UDP-TUN，TCP-转发】"
+msgstr "Redir-Host (TUN-Mixed) UDP-TUN, TCP-Redir"
 
 msgid "fake-ip-mix(tun mix mode)"
-msgstr "Fake-IP（TUN-混合）模式【UDP-TUN，TCP-转发】"
+msgstr "Fake-IP (TUN-Mixed) UDP-TUN, TCP-Redir"
 
 msgid "Select Mode For OpenClash Work, Try Flush DNS Cache If Network Error"
-msgstr "选择运行模式，如客户端的网络异常请尝试清除DNS缓存"
+msgstr "Select running mode for OpenClash, in case of network error, please flush your DNS cache"
 
 msgid "Proxy Mode"
-msgstr "代理模式"
+msgstr "Proxy Mode"
 
 msgid "Select Proxy Mode"
-msgstr "选择默认代理模式"
+msgstr "Select your proxy mode"
 
 msgid "Rule Proxy Mode"
-msgstr "Rule【策略代理】"
+msgstr "Rule based"
 
 msgid "Global Proxy Mode"
-msgstr "Global【全局代理（需前往控制面板手动指定节点）】"
+msgstr "Global"
 
 msgid "Direct Proxy Mode"
-msgstr "Direct【全局直连】"
+msgstr "Direct"
 
 msgid "Script Proxy Mode (Tun Core Only)"
-msgstr "Script【脚本模式 - 仅TUN内核】"
+msgstr "Script (TUN Core Only)"
 
 msgid "Select Stack Type"
-msgstr "网络栈类型"
+msgstr "Stack Type"
 
 msgid "Select Stack Type For TUN Mode, According To The Running Speed on Your Machine"
-msgstr "请自行根据运行速度为 TUN 模式选择合适的网络栈"
+msgstr "Select the stack type for TUN mode"
 
 msgid "China IP Route"
 msgstr "实验性：绕过中国大陆 IP"
@@ -492,31 +492,31 @@ msgid "Auto Update Other Rules"
 msgstr "正在使用第三方规则时更新设置才会生效"
 
 msgid "Update Time (Every Week)"
-msgstr "更新时间(每周)"
+msgstr "Set Day to Restart"
 
 msgid "Every Day"
-msgstr "每天"
+msgstr "Everyday"
 
 msgid "Every Monday"
-msgstr "每周一"
+msgstr "Monday"
 
 msgid "Every Tuesday"
-msgstr "每周二"
+msgstr "Tuesday"
 
 msgid "Every Wednesday"
-msgstr "每周三"
+msgstr "Wednesday"
 
 msgid "Every Thursday"
-msgstr "每周四"
+msgstr "Thursday"
 
 msgid "Every Friday"
-msgstr "每周五"
+msgstr "Friday"
 
 msgid "Every Saturday"
-msgstr "每周六"
+msgstr "Saturday"
 
 msgid "Every Sunday"
-msgstr "每周日"
+msgstr "Sunday"
 
 msgid "Update Other Rules"
 msgstr "更新第三方规则"
@@ -1138,10 +1138,10 @@ msgid "Convert Subscribe function of Online is Supported By subconverter Written
 msgstr "在线订阅转换功能由 tindy X 通过 subconverter 提供支持"
 
 msgid "Small Flash Memory"
-msgstr "小闪存模式"
+msgstr "Compact Flash Mode"
 
 msgid "Move Core And GEOIP Data File To /tmp/etc/openclash For Small Flash Memory Device"
-msgstr "针对闪存空间不够的设备，移动内核和 GEOIP 数据库等文件到 /tmp/etc/openclash 文件夹"
+msgstr "Move OpenClash core and GeoIP data to /tmp/etc/openclash for smaller flash devices."
 
 msgid "Round-robin"
 msgstr "轮询（轮流使用全部代理）"
@@ -1408,10 +1408,10 @@ msgid "to enter full screen editing mode"
 msgstr "进入全屏编辑模式"
 
 msgid "Switch page to Fake-IP mode"
-msgstr "切换页面到 Fake-IP 模式"
+msgstr "Switch to Fake-IP mode"
 
 msgid "Switch page to Redir-Host mode"
-msgstr "切换页面到 Redir-Host 模式"
+msgstr "Switch to Redir-Host mode"
 
 msgid "Page has been switched to Fake-IP mode!"
 msgstr "页面已切换为 Fake-IP 模式！"
@@ -1522,25 +1522,25 @@ msgid "Note"
 msgstr "备注"
 
 msgid "Auto Restart"
-msgstr "定时重启"
+msgstr "Auto Restart"
 
 msgid "Auto Restart OpenClash"
-msgstr "定时重启插件"
+msgstr "Auto restart OpenClash"
 
 msgid "Restart Time (Every Week)"
-msgstr "重启时间(每周)"
+msgstr "Set Day to restart"
 
 msgid "Restart time (every day)"
-msgstr "重启时间(每天)"
+msgstr "Set Time to restart"
 
 msgid "DNS Port"
 msgstr "DNS监听端口"
 
 msgid "Log Size (KB)"
-msgstr "日志大小（KB）"
+msgstr "Log Size（KB）"
 
 msgid "Set Log File Size (KB)"
-msgstr "设置日志文件大小（KB）"
+msgstr "Log file size in Kilobytes"
 
 msgid "Download Log"
 msgstr "下载日志"
@@ -2782,13 +2782,14 @@ msgid "no nodes name match the regex!"
 msgstr "未找到名称匹配的节点!"
 
 msgid "Bypass Gateway Compatible"
-msgstr "旁路网关（旁路由）兼容"
+msgstr "Compatible Gateway Mode"
 
 msgid "If The Network Cannot be Connected in Bypass Gateway Mode, Please Try to Enable."
-msgstr "旁路网关（旁路由）模式下网络无法连接时请尝试启用。"
+msgstr "Only try this option if unable to connect to internet in gateway mode."
 
 msgid "Suggestion: If The Device Does Not Have WLAN, Please Disable The Lan Interface's Bridge Option"
 msgstr "建议：如果设备没有 WLAN，请禁用 Lan 接口的桥接接口选项"
+msgstr "Note: Please consider disable the LAN bridge if this device doesn't have WLAN interfaces."
 
 msgid "Github Address Modify"
 msgstr "Github 地址修改"
@@ -2806,10 +2807,10 @@ msgid "Paste the name of the new file (including the extension) here:"
 msgstr "请在此输入要新建的文件名称（含扩展名）："
 
 msgid "Delay Start (s)"
-msgstr "延迟启动（秒）"
+msgstr "Delay（s）"
 
 msgid "Delay Start On Boot"
-msgstr "系统重启时延迟启动"
+msgstr "Startup delay in seconds"
 
 msgid "Enable Delay Start, OpenClash Will Start After"
 msgstr "延迟启动已启用，OpenClash 将在"
@@ -2915,6 +2916,7 @@ msgstr "*使用 Meta 内核"
 
 msgid "Some Premium Core Features are Unavailable, For Other More Useful Functions Go Wiki:"
 msgstr "Meta 内核还未支持 Premium 内核的全部功能，要了解其独有功能，请前往Wiki:"
+msgstr "Some features will be unavailable for Clash Meta core, learn more at:"
 
 msgid "Enable Sniffer"
 msgstr "*启用流量（域名）探测"
