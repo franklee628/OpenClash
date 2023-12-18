@@ -9,7 +9,7 @@ msgid "A Clash Client For OpenWrt"
 msgstr "A rule based Clash Client For OpenWrt"
 
 msgid "Plugin Settings"
-msgstr "Plugin Settings"
+msgstr "General"
 
 msgid "Credits"
 msgstr "Credits"
