@@ -1225,13 +1225,13 @@ msgid "<Limited State>"
 msgstr "<受限状态>"
 
 msgid "Enhance"
-msgstr "增强"
+msgstr "Enhanced"
 
 msgid "Compatible"
-msgstr "兼容"
+msgstr "Compatible"
 
 msgid "Mix"
-msgstr "混合"
+msgstr "Mixed"
 
 msgid "Close All Connections"
 msgstr "重置所有链接"
